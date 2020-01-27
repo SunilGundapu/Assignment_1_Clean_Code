@@ -19,6 +19,12 @@ FilenameArgumentMarshaler will takes image file names with all extensions like (
 
 I'm passing above three arguments t, m and f to a method called **fileInformation**. This method gives the information like file name (f), memory size of file (m), file created time (t).
 
-## Example 
+##### Example 
     > fileInformation(String fileName, String time, float memorySize)
     > output: file name: cat.jpg, created time:12:34, file size:15.04f
+  
+Wrote the exception cases for directory names and port numbers. Those are **INVALID_DIRECTORY_NAME** and **INVALID_PORT_NUMBER**.
+
+In Linux/Windows/Mac, we have rules for directory names. Based on those rules wrote a regex for directory names. If the given directory name doesn't satisfy the regex then it will throws **INVALID_DIRECTORY_NAME** exception.
+
+According to TCP/IP port numbers are mostly in between 1024 - 65525, so if any port number not in this range then it will throws **INVALID_PORT_NUMBER** exception.
