@@ -34,6 +34,7 @@ According to TCP/IP port numbers are mostly in between 1024 - 65525, so if any p
 
 * For compilation: Go to Assignment1_2018701022 folder > then go to src folder > then run below command
   > **javac com/cleancoder/args/*.java**
-* For runtime: 
+* For runtime: run below command
   > **java com.cleancoder.args.ArgsMain -l -p 8080 -d sofwareengg -t 12:34 -f cat.jpg -m 15.04**
-
+* For unit testing: Go to Assignment1_2018701022 folder > then run below command
+  > **java -cp "lib/junit-4.13.jar:lib/hamcrest-core-1.3.jar:build/jar/args.jar" ./test/com/cleancoder/args/ArgsTest.java**
