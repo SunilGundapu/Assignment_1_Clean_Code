@@ -28,3 +28,12 @@ Wrote the exception cases for directory names and port numbers. Those are **INVA
 In Linux/Windows/Mac, we have rules for directory names. Based on those rules wrote a regex for directory names. If the given directory name doesn't satisfy the regex then it will throws **INVALID_DIRECTORY_NAME** exception.
 
 According to TCP/IP port numbers are mostly in between 1024 - 65525, so if any port number not in this range then it will throws **INVALID_PORT_NUMBER** exception.
+
+
+## Instructions for execution
+
+* For compilation: Go to Assignment1_2018701022 folder > then go to src folder > then run below command
+  **javac com/cleancoder/args/*.java**
+* For runtime: 
+  **java com.cleancoder.args.ArgsMain -l -p 8080 -d sofwareengg -t 12:34 -f cat.jpg -m 15.04**
+
