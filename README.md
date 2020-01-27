@@ -1,6 +1,6 @@
-# Assignment - 1: Clean Code **
+## Assignment - 1: Clean Code
 
-Implemented features:
+#### Implemented features:
 I have implemented three more ArgumentMarshaler. Those are TimeArgumentMarshaler, FloatArgumentMarshaler and FilenameArgumentMarshaler.
 
 The Args class with two parameters. The first parameter is the format, or schema, string: "l,p#,d*,t@,m^,f%" and The second parameter to the Args constructor is simply the array of command-line argument passed into main.
