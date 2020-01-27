@@ -11,4 +11,8 @@ Schema defines three already mentioned command-line arguments (l, p, d) and thre
 2. **m** argument takes memory in float point numbers (eg., 3.01f)
 3. **f** argument takes image file name with all extensions (jpg,png,bpm..etc)
 
-TimeArgumentMashler will takes 24hrs format time string and checks whether the given input string satisfying the time format or not. If the string doesn't tally with time regex then it will throw **INVALID_TIME_FORMAT** exception.
+TimeArgumentMashler will takes 24hrs format time string and checks whether the given input string satisfying the time format or not. If the string doesn't tally with time regex then it will throws **INVALID_TIME_FORMAT** exception.
+
+FloatArgumentMarshaler will takes large arrays of floating point numbers. The float data type should never be used for precise values and it's default value is 0.0F.
+
+FilenameArgumentMarshaler will takes image file names with all extensions like (.jpg|.png|.gif). If the given input string doesn't match with image file name regex then it will throws **INVALID_IMAGE_FILENAME** exception.
