@@ -16,3 +16,8 @@ TimeArgumentMashler will takes 24hrs format time string and checks whether the g
 FloatArgumentMarshaler will takes large arrays of floating point numbers. The float data type should never be used for precise values and it's default value is 0.0F.
 
 FilenameArgumentMarshaler will takes image file names with all extensions like (.jpg|.png|.gif). If the given input string doesn't match with image file name regex then it will throws **INVALID_IMAGE_FILENAME** exception.
+
+I'm passing above three arguments t, m and f to a method called **fileInformation**. This method gives the information like file name (f), memory size of file (m), file created time (t).
+
+Ex: fileInformation(String fileName, String time, float memorySize)
+    output: file name: cat.jpg, created time:12:34, file size:15.04f
