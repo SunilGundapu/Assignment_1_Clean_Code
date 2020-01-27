@@ -32,8 +32,8 @@ According to TCP/IP port numbers are mostly in between 1024 - 65525, so if any p
 
 ## Instructions for execution
 
-* For compilation: Go to Assignment1_2018701022 folder > then go to src folder > then run below command *
-  **javac com/cleancoder/args/*.java**
-* For runtime: *
-  **java com.cleancoder.args.ArgsMain -l -p 8080 -d sofwareengg -t 12:34 -f cat.jpg -m 15.04**
+* For compilation: Go to Assignment1_2018701022 folder > then go to src folder > then run below command
+  > **javac com/cleancoder/args/*.java**
+* For runtime: 
+  > **java com.cleancoder.args.ArgsMain -l -p 8080 -d sofwareengg -t 12:34 -f cat.jpg -m 15.04**
 
