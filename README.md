@@ -19,6 +19,6 @@ FilenameArgumentMarshaler will takes image file names with all extensions like (
 
 I'm passing above three arguments t, m and f to a method called **fileInformation**. This method gives the information like file name (f), memory size of file (m), file created time (t).
 
-Ex: 
-    fileInformation(String fileName, String time, float memorySize)
-    **output: file name: cat.jpg, created time:12:34, file size:15.04f
+*Ex: 
+    > fileInformation(String fileName, String time, float memorySize)
+    > output: file name: cat.jpg, created time:12:34, file size:15.04f
