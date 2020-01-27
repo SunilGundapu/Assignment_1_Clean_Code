@@ -8,14 +8,14 @@ In the above clean code, the **Args** class with two parameters. The first param
 Schema defines three already mentioned command-line arguments (l, p, d) and three new arguments (f, t, m), totally six command line arguments. f, t are string arguments and m is a **float argument**.
 
 **Old Arguments:**
-1. **l**-- logging
-2. **p**-- port number
-3. **d**-- directory name
+1. **l** (boolean type) -- logging
+2. **p** (int type) -- port number
+3. **d** (String type) -- directory name
 
 **New Arguments:**
-1. **t** argument takes time in 24hours format (HH:MM)
-2. **m** argument takes memory in float point numbers (eg., 3.01f)
-3. **f** argument takes image file name with all extensions (jpg,png,bpm..etc)
+1. **t** (String type) argument takes time in 24hours format (HH:MM)
+2. **m** (float type) argument takes memory in float point numbers (eg., 3.01f)
+3. **f** (String type) argument takes image file name with all extensions (jpg,png,bpm..etc)
 
 I have implemented three more ArgumentMarshaler for above three newly added argumnets. Those are **TimeArgumentMarshaler**, **FloatArgumentMarshaler** and **FilenameArgumentMarshaler**.
 
