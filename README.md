@@ -37,6 +37,8 @@ In Linux/Windows/Mac, we have rules for directory names. Based on those rules wr
 
 According to TCP/IP port numbers are mostly in between 1024 - 65525, so if any port number not in this range then it will throws **INVALID_PORT_NUMBER** exception.
 
+In ArgsTest.java file, each test case contains more than **assert()**. This problem achieved by combining multiple conditions by using && operator.
+
 
 ## Instructions for execution
 
