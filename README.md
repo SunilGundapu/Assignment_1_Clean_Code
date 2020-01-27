@@ -8,6 +8,7 @@ The **Args** class with two parameters. The first parameter is the format, or **
 Schema defines three already mentioned command-line arguments (l, p, d) and three new arguments (f, t, m), totally six command line arguments. f, t are string arguments and m is a **float argument**.
 
 1. **t** argument takes time in 24hours format (HH:MM)
-     _ TimeArgumentMashler will takes 24hrs format time string and checks whether the given input string satisfying the time format or not. If the string doesn't tally with time regex then it will throw **INVALID_TIME_FORMAT** exception.
 2. **m** argument takes memory in float point numbers (eg., 3.01f)
 3. **f** argument takes image file name with all extensions (jpg,png,bpm..etc)
+
+TimeArgumentMashler will takes 24hrs format time string and checks whether the given input string satisfying the time format or not. If the string doesn't tally with time regex then it will throw **INVALID_TIME_FORMAT** exception.
