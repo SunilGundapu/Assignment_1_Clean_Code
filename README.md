@@ -46,3 +46,14 @@ According to TCP/IP port numbers are mostly in between 1024 - 65525, so if any p
   > **java com.cleancoder.args.ArgsMain -l -p 8080 -d sofwareengg -t 12:34 -f cat.jpg -m 15.04**
 * For unit testing: Go to Assignment1_2018701022 folder > then run below command
   > **java -cp "lib/junit-4.13.jar:lib/hamcrest-core-1.3.jar:build/jar/args.jar" ./test/com/cleancoder/args/ArgsTest.java**
+
+## How your code-base has characteristics of clean code?
+
+* I choosed descriptive and unambiguous names. Avoided encodings and didn't appended prefixes or type information.
+* I wrote the very small fuctions contains less than 7 lines of code. And used the descriptive fuction names.
+* Avoided the more arguments. 
+* Separated the methods/concepts vertically, didn't use the horizontal alignment.
+* For each and every exception, write the easily understandable message.
+* For all 'argument test cases' and 'argument exceptional test cases' used only one **assert()**
+* Avoided using 'flag' arguments.
+* According to code structure rule, kept the all similar functions at same place.
